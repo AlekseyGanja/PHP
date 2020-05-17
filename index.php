@@ -1,5 +1,5 @@
 <?php
-$title="Homework1";
+$title="Homework-1";
 $helloWorld="<h1>Привет Мир!!!</h1>";
 $yearToday=date("Y");
 
