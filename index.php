@@ -1,10 +1,10 @@
-<?php
-$title="Homework-1";
+<?
+$title="<TITLE>Homework-1</TITLE>";
 $helloWorld="<h1>Привет Мир!!!</h1>";
 $yearToday=date("Y");
 
 define(MYNAME,"Алексей Ганжа");
-echo "<TITLE>$title</TITLE>";
+echo $title;
 echo $helloWorld;
 echo 'Меня зовут: '.MYNAME.'.<br>';
 echo "Сейчас ".$yearToday."год."."<br><br><br>";
