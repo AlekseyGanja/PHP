@@ -17,7 +17,7 @@ if($timeHours%10==0 || $timeHours%10 > 4){//Если посленняя цифр
 		}else{ //Оставшийся вариант, если посленняя цифра текущего часа "2,3,4"
 			$strHours="часа"; 
 			};
-if($timeMinutes%10==0 || $timeMinutes%10 > 4){
+if($timeMinutes%10==0 || $timeMinutes%10 > 4){// С минутами всё то же
 	$strMinutes="минут";
 	}elseif($timeMinutes%10==1){
 		$strMinutes="минута";	
