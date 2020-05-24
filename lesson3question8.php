@@ -12,9 +12,6 @@ $country = [
     "Ленинградская область" =>["Санкт-Петербург", "Всеволожск", "Кронштадт"],
     "Тверская область" =>["Тверь", "Калязин", "Кашин"]
 ];
-/*foreach ($country as $obl => $siti){
-    $string .= "$obl: <br>";
-}*/
 
 foreach ($country as $obl => $sitis){
     $string .= "$obl: <br>";
@@ -26,7 +23,6 @@ foreach ($country as $obl => $sitis){
                 $string .= $siti."<br><br>";
             };
         };
-        //$string .= "<br>";
     }
 }
 echo $string;
